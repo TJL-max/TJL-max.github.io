@@ -1,0 +1,1 @@
+const e={key:"v-3cf9d3af",path:"/html/defer-and-async/",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1645107767e3,contributors:[{name:"TJL-max",email:"1148521357@qq.com",commits:1}]},filePathRelative:"html/defer-and-async/README.md"};export{e as data};

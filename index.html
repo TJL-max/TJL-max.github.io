@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 微信分享显示的标题 -->
+    <meta property="og:title" content="全品类烟花效果预览" />
+    <!-- 微信分享显示的描述 -->
+    <meta property="og:description" content="鞭炮、烟花全品类烟花效果展示" />
+    <!-- 微信分享显示的缩略图 -->
+    <meta
+      property="og:image"
+      content="https://cdn.jsdelivr.net/gh/tongjinlong/mycdn@master/images/new-years-eve-1953253_1280.jpg"
+    />
+    <!-- 分享链接的地址 -->
+    <meta
+      property="og:url"
+      content="https://tongjinlong.github.io/TJL-max.github.io/"
+    />
+    <title>全品类烟花效果预览</title>
+    <style>
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        margin: 0;
+        padding: 16px;
+        background-color: #212121;
+        color: #ffffff;
+      }
+      h3,
+      h4 {
+        margin: 0;
+      }
+      h3 {
+        margin-bottom: 16px;
+      }
+      h4 {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+      .header {
+        width: 100%;
+        border-bottom: 1px solid #7c7575;
+        margin-bottom: 10px;
+      }
+      .item {
+        display: inline-block;
+        padding: 2px 5px;
+        border-radius: 5px;
+        background-color: #7c7575;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      .item.active {
+        background-color: #1e56a0;
+      }
+      .content {
+        display: none;
+      }
+
+      .content.active {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 style="width: 100%; text-align: center">全品类烟花效果预览</h3>
+    <div class="header">
+      <div>
+        <h4>礼花</h4>
+        <span class="item active" data-content="content1">牛石加特林</span>
+        <span class="item" data-content="content2">庆典礼炮10克药版 25发</span>
+        <span class="item" data-content="content3">雅典盛会 20发</span>
+        <span class="item" data-content="content4">摇钱树 36发</span>
+        <span class="item" data-content="content5">大旺财 49发</span>
+        <span class="item" data-content="content6">霸王花 49发</span>
+        <span class="item" data-content="content7">幸福花 49发</span>
+        <span class="item" data-content="content8">轻舟已过万重山 20发</span>
+        <span class="item" data-content="content9">侠客行 100发</span>
+        <span class="item" data-content="content10">精彩三分钟 100发</span>
+        <span class="item" data-content="content11">挂鞭 5000响</span>
+        <span class="item" data-content="content12">鑫胜加特林</span>
+        <span class="item" data-content="content13">20发笛音蕾</span>
+        <span class="item" data-content="content14">50发焰景之菊花盛开</span>
+        <span class="item" data-content="content15"
+          >80发 和顺旺年/发财旺年/吉祥旺年/富贵旺年</span
+        >
+        <span class="item" data-content="content16">60发江丰雪景</span>
+        <span class="item" data-content="content17">100发遥遥领先系列</span>
+        <span class="item" data-content="content18">60发乐焰星辰</span>
+        <span class="item" data-content="content19"
+          >60发 欢乐满堂/鸿福满堂/福喜满堂/钱财满堂</span
+        >
+        <span class="item" data-content="content20">100发财源滚滚</span>
+        <span class="item" data-content="content21">80发花火极景-银椰金葵</span>
+        <span class="item" data-content="content22">60发笛音花语</span>
+        <span class="item" data-content="content23">80发空中盛焰</span>
+        <span class="item" data-content="content24">88发 金旺旺/银旺旺</span>
+        <span class="item" data-content="content25">36发炫舞-金</span>
+        <span class="item" data-content="content26">1寸80发空中如画</span>
+        <span class="item" data-content="content27">100发大师风范</span>
+        <span class="item" data-content="content28">1寸80发空中花园</span>
+        <span class="item" data-content="content29">1寸108发光芒万丈</span>
+      </div>
+      <div>
+        <h4>儿童烟花</h4>
+        <span class="item" data-content="content30">森林·糖果屋</span>
+        <span class="item" data-content="content31">一起狂欢</span>
+        <span class="item" data-content="content32">我最棒</span>
+        <span class="item" data-content="content33">初恋花开</span>
+        <span class="item" data-content="content34">七彩霹雳棒</span>
+        <span class="item" data-content="content35">网红彩烟棒</span>
+        <span class="item" data-content="content36">快乐出发</span>
+        <span class="item" data-content="content37">幸福家园</span>
+        <span class="item" data-content="content38">满地珍珠</span>
+        <span class="item" data-content="content39"
+          >恐龙先生、赛车达人、足球少年、萌宝小菲</span
+        >
+        <span class="item" data-content="content40">万象杯</span>
+        <span class="item" data-content="content41">好运锤</span>
+        <span class="item" data-content="content42">M10</span>
+        <span class="item" data-content="content43">海孚一号</span>
+        <span class="item" data-content="content44">18寸智慧星光棒</span>
+        <span class="item" data-content="content45">喜乐年华</span>
+        <span class="item" data-content="content46">惊喜无限</span>
+        <span class="item" data-content="content47">经典手摇花</span>
+      </div>
+    </div>
+    <div class="content active" id="content1">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：1088型加特林机枪</p>
+        <p>发数：1088型</p>
+        <p>规格：950*370*270mm</p>
+        <p>含量：12/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://cdn.jsdelivr.net/gh/tongjinlong/mycdn@master/images/20247614916.png"
+        >
+          <source
+            src="http://alicdn.fireworks-online.cn/ys-niushi/1088%E5%8A%A0%E7%89%B9%E6%9E%97%E8%88%AA%E6%8B%8D.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="https://cdn.jsdelivr.net/gh/tongjinlong/mycdn@master/images/1088-gatlin-aerial-photography-1.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+      <div>
+        <p>商品名称：加特林升级版</p>
+        <p>发数：1088型</p>
+        <p>规格：954*293*283mm</p>
+        <p>含量：3/3</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://cdn.jsdelivr.net/gh/tongjinlong/mycdn@master/images/202167145711.png"
+        >
+          <source
+            src="http://alicdn.fireworks-online.cn/ys-niushi/%E5%B0%8F%E4%BA%A7%E5%93%8121%E5%B9%B4%E5%8A%A0%E7%89%B9%E6%9E%97%E5%8D%87%E7%BA%A7%E7%89%88.mp4"
+            type="video/mp4"
+          />
+          <source
+            src="https://cdn.jsdelivr.net/gh/tongjinlong/mycdn@master/images/small-product-21-years-gatlin-upgrade-version.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content2">
+      <p>商品名称：庆典礼炮10克药版</p>
+      <p>发数：25发</p>
+      <p>含量：8/1</p>
+      <p>售卖方式：箱</p>
+      <img
+        style="width: 100%; height: 260px"
+        src="https://cdn.jsdelivr.net/gh/tongjinlong/mycdn@master/images/20240107.png"
+        alt="庆典礼炮10克药版"
+      />
+    </div>
+    <div class="content" id="content3">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：20发雅典盛会</p>
+        <p>发数：1.1存20发</p>
+        <p>含量：6/1</p>
+        <p>售卖方式：箱</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://alicdn.fireworks-online.cn/new-img/uploads/huaying202181085829/2021810103923.png"
+        >
+          <source
+            src="http://alicdn.fireworks-online.cn/ys-huaying/1.%E6%A8%A1%E5%8E%8B20%E5%8F%91.m4v"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content4">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：36发F7摇钱树 发财树</p>
+        <p>发数：36发</p>
+        <p>规格：48*54*500</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://alicdn.fireworks-online.cn/new-img/uploads/fuxingyh2021521154424/2021618142027.png"
+        >
+          <source
+            src="http://alicdn.fireworks-online.cn/ys-fuxing/%E6%96%B0%E7%B3%BB%E7%BB%9F36%E5%8F%91F7%20%E5%8F%91%E8%B4%A2%E6%A0%91%20%E6%91%87%E9%92%B1%E6%A0%91.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content5">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：49发大财旺</p>
+        <p>发数：49发</p>
+        <p>规格：36.7*36.7*48.8</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://alicdn.fireworks-online.cn/new-img/uploads/fuxingyh2021521154424/20221018172631.png"
+        >
+          <source
+            src="http://alicdn.fireworks-online.cn/ys-fuxing/%E6%96%B0%E7%B3%BB%E7%BB%9F49%E5%8F%91F7%20%E5%8F%91%E8%B4%A2%E6%A0%91%20%E6%91%87%E9%92%B1%E6%A0%91.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content6">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：49发霸王花 花冠王</p>
+        <p>发数：49发</p>
+        <p>规格：382*382*392mm</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://alicdn.fireworks-online.cn/new-img/uploads/jintanyh2021811101549/2023527142753.png"
+        >
+          <source
+            src="http://alicdn.fireworks-online.cn/ys-jintan168/2%E5%AF%B849%E5%8F%91%20%E9%AB%98%E7%BA%A7%E7%A4%BC%E8%8A%B1%E7%8E%8B%20%E7%99%BE%E8%8A%B1%E4%BA%89%E8%89%B3.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content7">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：49发F9幸福花</p>
+        <p>发数：49发</p>
+        <p>规格：67*74*580</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://alicdn.fireworks-online.cn/new-img/uploads/fuxingyh2021521154424/202161814383.png"
+        >
+          <source
+            src="http://alicdn.fireworks-online.cn/ys-fuxing/21-49%E5%8F%91F9%E5%B9%B8%E7%A6%8F%E8%8A%B1.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content8">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：25发轻舟已过万重山</p>
+        <p>发数：25发</p>
+        <p>规格（cm）：36*36*51</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://cdn.jsdelivr.net/gh/tongjinlong/mycdn@master/images/qingzhou.jpg"
+        >
+          <source
+            src="https://cdn.jsdelivr.net/gh/tongjinlong/mycdn@master/images/qingzhouyiguowanchongshan.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content9">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：侠客行</p>
+        <p>发数：1.2存100发</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/892_6b735/products/150359/20240516145244.png"
+        >
+          <source src="https://j.if1f.com/892/150359.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content10">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：精彩三分钟</p>
+        <p>发数：100发</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/551_812c8/products/119203/20230708110755.png"
+        >
+          <source src="https://j.if1f.com/551/119203.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content11">
+      <p>商品名称：挂鞭</p>
+      <p>发数：5000响</p>
+      <p>含量：1挂</p>
+      <p>售卖方式：挂</p>
+      <img
+        style="width: 100%; height: 260px"
+        src="https://cdn.jsdelivr.net/gh/tongjinlong/mycdn@master/images/ganging-whip.png"
+        alt="庆典礼炮10克药版"
+      />
+    </div>
+    <div class="content" id="content12">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：鑫胜加特林</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/306_51aa1/products/27989/20230607120324.png"
+        >
+          <source src="https://j.if1f.com/605/88802.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content13">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：20发笛音蕾</p>
+        <p>发数：20发</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/527_1c675/products/100347/20230908143013.png"
+        >
+          <source src="https://j.if1f.com/527/100347.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content14">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：50发焰景之菊花盛开</p>
+        <p>发数：50发</p>
+        <p>规格：30*35*270mm</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://tp.fwmall.com.cn/shop/store/goods/5/yhh_20200822170950743.png?x-oss-process=image/resize,w_600"
+        >
+          <source
+            src="https://sp.fwmall.com.cn/cn/5/mp4/yhh_20200911142112424.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content15">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：80发 和顺旺年/发财旺年/吉祥旺年/富贵旺年</p>
+        <p>发数：80发</p>
+        <p>规格：25*30*280mm</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://tp.fwmall.com.cn/shop/store/goods/5/yhh_20240906152746607.png?x-oss-process=image/resize,w_600"
+        >
+          <source
+            src="https://sp.fwmall.com.cn/cn/5/mp4/yhh_20210827162757445.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content16">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：60发江丰雪景</p>
+        <p>发数：60发</p>
+        <p>规格：49*37.5*28mm</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://tp.fwmall.com.cn/shop/store/goods/5/yhh_20210807095009702.png?x-oss-process=image/resize,w_800"
+        >
+          <source
+            src="https://sp.fwmall.com.cn/cn/5/mp4/yhh_2020102116363837.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content17">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：100发遥遥领先系列</p>
+        <p>发数：100发</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://alicdn.fireworks-online.cn/new-img/uploads/huaying202181085829/20231124142746.png"
+        >
+          <source
+            src="http://alicdn.fireworks-online.cn/ys-huaying/1.1%E5%AF%B8100%E5%8F%91%E9%81%A5%E9%81%A5%E9%A2%86%E5%85%88.m4v"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content18">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：60发乐焰星辰</p>
+        <p>发数：60发</p>
+        <p>规格：51.2*35.2*29.3cm</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://alicdn.fireworks-online.cn/new-img/uploads/jinleyanhua202456162614/2024614151119.png"
+        >
+          <source
+            src="http://alicdn.fireworks-online.cn/ys-jinle/1%20%201.2%E5%AF%B8%E6%9E%B6%E7%A9%BA60%E5%8F%91%20%E4%B9%90%E7%81%AB%E6%9C%9D%E5%A4%A9%20%E4%B9%90%E7%84%B0%E6%98%9F%E8%BE%B0.m4v"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content19">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：60发 欢乐满堂/鸿福满堂/福喜满堂/钱财满堂</p>
+        <p>发数：60发</p>
+        <p>规格：25*30*280</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://tp.fwmall.com.cn/shop/store/goods/5/yhh_20240906152652327.png?x-oss-process=image/resize,w_600"
+        >
+          <source
+            src="https://sp.fwmall.com.cn/cn/5/mp4/yhh_20210827162924397.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content20">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：100发财源滚滚</p>
+        <p>发数：100发</p>
+        <p>规格：1.2寸*30CM</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://alicdn.fireworks-online.cn/new-img/uploads/huaying202181085829/202181012027.png"
+        >
+          <source
+            src="http://alicdn.fireworks-online.cn/ys-huaying/1.2%E5%AF%B8108%E5%8F%91%E8%B4%A2%E6%BA%90%E6%BB%9A%E6%BB%9A.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content21">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：80发花火极景-银椰金葵</p>
+        <p>发数：80发</p>
+        <p>规格：1.2寸</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/489_fd8c6/products/146900/20240607153835.png"
+        >
+          <source
+            src="https://xpfireworks.oss-cn-beijing.aliyuncs.com/2024/80%E5%8F%91-A-%E8%8A%B1%E7%81%AB%E6%9E%81%E6%99%AF-%E9%93%B6%E6%A4%B0%E9%87%91%E8%91%B5.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content22">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：60发笛音花语</p>
+        <p>发数：60发</p>
+        <p>规格：27*32*280</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://tp.fwmall.com.cn/shop/store/goods/5/yhh_20210715151728843.png?x-oss-process=image/resize,w_600"
+        >
+          <source
+            src="https://sp.fwmall.com.cn/cn/5/mp4/yhh_2021071910563265.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content23">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：80发空中盛焰</p>
+        <p>发数：80发</p>
+        <p>规格：25*30*250</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/477_f3096/products/146505/20240420154815.png"
+        >
+          <source src="https://j.if1f.com/477/146505.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content24">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：88发 金旺旺/银旺旺</p>
+        <p>发数：88发</p>
+        <p>规格：1.1寸*19CM</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://alicdn.fireworks-online.cn/new-img/uploads/huaying202181085829/2021810105843.png"
+        >
+          <source
+            src="http://alicdn.fireworks-online.cn/ys-huaying/88%E5%8F%91%E4%BA%BF%E4%B8%87%E5%AF%8C%E7%BF%81.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content25">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：36发炫舞-金</p>
+        <p>发数：36发</p>
+        <p>规格：1.2寸</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/489_fd8c6/products/144670/20240603150225.jpg"
+        >
+          <source
+            src="https://xpfireworks.oss-cn-beijing.aliyuncs.com/2024/36%E5%8F%91A-logo.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content26">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：1寸80发空中如画</p>
+        <p>发数：80发</p>
+        <p>规格：25x30x250</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/477_f3096/products/146504/20240420154801.png"
+        >
+          <source src="https://j.if1f.com/477/146504.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content27">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：100发大师风范</p>
+        <p>发数：100发</p>
+        <p>规格：1.2寸</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/489_fd8c6/products/146838/20240927110129.png"
+        >
+          <source
+            src="https://xpfireworks.oss-cn-beijing.aliyuncs.com/2024/100%E5%8F%91%E5%A4%A7%E5%B8%88%E9%A3%8E%E8%8C%83.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content28">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：1寸80发空中花园</p>
+        <p>发数：80发</p>
+        <p>规格：25x30x250</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/477_f3096/products/146503/20240420154738.png"
+        >
+          <source src="https://j.if1f.com/477/146503.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content29">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：1寸108发光芒万丈</p>
+        <p>发数：108发</p>
+        <p>规格：25x30x250</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/477_f3096/products/146496/20240420154914.png"
+        >
+          <source src="https://j.if1f.com/477/146496.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content30">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：森林·糖果屋</p>
+        <p>类型：喷花类</p>
+        <p>盒子尺寸：30.1x19.5x7.7</p>
+        <p>含量：1/1</p>
+        <p>售卖方式：盒</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="http://25358709.s21i.faiusr.com/2/ABUIABACGAAgqpXplgYo-K3TiAcwoAY4oAY!800x800.jpg.webp"
+        >
+          <source
+            src="http://25358709.s21v.faiusr.com/58/ABUIABA6GAAgz5XplgYovKbAyAQ.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content31">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：一起狂欢</p>
+        <p>含量：40/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/608_6d9d8/products/93332/20221026163222.png"
+        >
+          <source src="https://j.if1f.com/605/73435.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content32">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：我最棒</p>
+        <p>含量：10/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/592_7ea10/products/75682/20230927135433.png"
+        >
+          <source src="https://j.if1f.com/592/75682.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content33">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：初恋花开</p>
+        <p>含量：10支/盒</p>
+        <p>售卖方式：盒</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/592_7ea10/products/75851/20230927103634.png"
+        >
+          <source src="https://j.if1f.com/592/75851.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content34">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：七彩霹雳棒</p>
+        <p>含量：10支/盒</p>
+        <p>售卖方式：盒</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://tp.fwmall.com.cn/shop/store/goods/99/yhh_20211121230309738.png?x-oss-process=image/resize,w_800"
+        >
+          <source
+            src="https://sp.fwmall.com.cn/cn/99/mp4/yhh_20190126102720.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content35">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：网红彩烟棒</p>
+        <p>含量：20/4</p>
+        <p>售卖方式：盒</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/477_f3096/products/92331/20230427093658.png"
+        >
+          <source src="https://j.if1f.com/605/85756.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content36">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：快乐出发</p>
+        <p>含量：30/1</p>
+        <p>售卖方式：桶</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/477_f3096/products/74893/20240914110801.png"
+        >
+          <source src="https://j.if1f.com/477/74893.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content37">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：幸福家园</p>
+        <p>规格：18.5&12.5</p>
+        <p>含量：40/1</p>
+        <p>售卖方式：盒</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/477_f3096/products/53760/20240914113030.png"
+        >
+          <source src="https://j.if1f.com/477/53760.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content38">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：满地珍珠</p>
+        <p>含量：4/1</p>
+        <p>售卖方式：盒</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://tp.fwmall.com.cn/shop/store/goods/99/yhh_20240723130217320.png?x-oss-process=image/resize,w_800"
+        >
+          <source
+            src="https://sp.fwmall.com.cn/cn/99/mp4/yhh_20240124123456931.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content39">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：恐龙先生、赛车达人、足球少年、萌宝小菲</p>
+        <p>含量：6/1</p>
+        <p>售卖方式：盒</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/608_6d9d8/products/92685/20230511142838.png"
+        >
+          <source src="https://j.if1f.com/608/92685.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content40">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：万象杯</p>
+        <p>含量：45/1</p>
+        <p>售卖方式：桶</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/716_398ff/products/106067/20240722134414.png"
+        >
+          <source src="https://j.if1f.com/605/125397.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content41">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：好运锤</p>
+        <p>含量：18/1</p>
+        <p>售卖方式：个</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/481_bff2b/products/85947/20230810111931.png"
+        >
+          <source src="https://j.if1f.com/481/85947.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content42">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：M10</p>
+        <p>含量：12/1</p>
+        <p>售卖方式：桶</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/716_398ff/products/131845/20240608161623.png"
+        >
+          <source src="https://j.if1f.com/716/131845.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content43">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：海孚一号</p>
+        <p>含量：36/1</p>
+        <p>售卖方式：桶</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/477_f3096/products/56738/20240725140457.png"
+        >
+          <source src="https://j.if1f.com/477/56738.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content44">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：18寸智慧星光棒</p>
+        <p>含量：10/1</p>
+        <p>售卖方式：盒</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://tp.fwmall.com.cn/shop/store/goods/5/yhh_20221118163140114.png?x-oss-process=image/resize,w_600"
+        >
+          <source
+            src="https://sp.fwmall.com.cn/cn/805/mp4/yhh_20220920100933386.mp4"
+            type="video/mp4"
+          />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content45">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：喜乐年华</p>
+        <p>含量：16/1</p>
+        <p>售卖方式：盒</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/608_6d9d8/products/106276/20230313172853.png"
+        >
+          <source src="https://j.if1f.com/605/85707.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content46">
+      <div style="margin-bottom: 10px">
+        <p>商品名称：惊喜无限</p>
+        <p>含量：24/1</p>
+        <p>售卖方式：盒</p>
+        <video
+          width="100%"
+          height="260"
+          controls
+          loop
+          muted
+          poster="https://img1.if1f.com/files/608_6d9d8/products/84208/20220714173031.png"
+        >
+          <source src="https://j.if1f.com/605/69090.mp4" type="video/mp4" />
+          您的浏览器不支持视频标签，请升级浏览器。
+        </video>
+      </div>
+    </div>
+    <div class="content" id="content47">
+      <p>商品名称：经典手摇花</p>
+      <p>含量：5/1</p>
+      <p>售卖方式：捆</p>
+      <img
+        style="width: 100%; height: 260px"
+        src="https://cdn.jsdelivr.net/gh/tongjinlong/mycdn@master/images/1741736341078_.pic_hd.jpg"
+        alt="经典手摇花"
+      />
+    </div>
+
+    <script>
+      // 获取所有的 Tab 和内容
+      const tabs = document.querySelectorAll(".item");
+      const contents = document.querySelectorAll(".content");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          // 取消所有 Tab 和内容的激活状态
+          tabs.forEach((t) => t.classList.remove("active"));
+          contents.forEach((content) => content.classList.remove("active"));
+
+          // 激活当前 Tab 和对应内容
+          tab.classList.add("active");
+          const targetId = tab.getAttribute("data-content");
+          document.getElementById(targetId).classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>
